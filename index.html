@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DreamHotel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <header class="container-fluid">
+      <div class="row justify-content-around  bg-dark essential-nav-partials">
+        <div class="col-xl-4 text-center order-1 order-md-0">
+          <span class="header-icon-partials">
+            <i class="bi bi-cursor-fill"></i>
+            Telavi,Georgia
+          </span>
+          <span class="header-icon-partials">
+            <i class="bi bi-telephone-fill"></i>
+            +995-555-55-55-55
+          </span>
+
+        </div>
+        <div class="col-xl-4 text-center">
+          <span class="header-icon-partial">
+            <i class="bi bi-flag-fill"></i>
+            <div class="dropdown d-inline-block">
+              <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                EN
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">GE</a></li>
+                <li><a class="dropdown-item" href="#">RU</a></li>
+              </ul>
+            </div>
+          </span>
+          <span class="header-icon-partials">
+            <i class="bi bi-currency-dollar"></i>
+            <div class="dropdown d-inline-block">
+              <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                USD
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">GEL</a></li>
+                <li><a class="dropdown-item" href="#">EUR</a></li>
+              </ul>
+            </div>
+          </span>
+
+        </div>
+
+
+      </div>
+      <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse justify-content-end navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Accomodation</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </header>
+    <main>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/slider-imgs/img-01.jpg" class="d-block w-100" alt="slide1">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/slider-imgs/img-02.jpg" class="d-block w-100" alt="slide2">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/slider-imgs/img-03.jpg" class="d-block w-100" alt="slide3">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <section>
+        <div class="conteiner-fluid">
+          <div class="row">
+            <h2 class="text-center mb-5">
+              Rooms & Pricing
+
+            </h2>
+            <div class="col-xl-3 col-md-6">
+              <img src="img/rooms-img/regular.jpg" class="img-fluid" alt="regular">
+              <div class="desk">
+                <h3 class="text-center">type-1</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <span class="price">
+                  <b>Price:</b>
+                  $250/Day
+
+                </span>
+                <a type="button" class="btn btn-dark">Read more</a>
+  
+              </div>
+
+            </div>
+            <div class="col-xl-3 col-md-6">
+              <img src="img/rooms-img/room-01.jpg" class="img-fluid" alt="room-01">
+              <div class="desk">
+                <h3 class="text-center">type-2</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <span class="price">
+                  <b>Price:</b>
+                  $250/Day
+
+                </span>
+                <a type="button" class="btn btn-dark">Read more</a>
+  
+              </div>
+
+            </div>
+            <div class="col-xl-3 col-md-6">
+              <img src="img/rooms-img/room-04.jpg" class="img-fluid" alt="r00m2">
+              <div class="desk">
+                <h3 class="text-center">type-3</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <span class="price">
+                  <b>Price:</b>
+                  $250/Day
+
+                </span>
+                <a type="button" class="btn btn-dark">Read more</a>
+  
+              </div>
+
+            </div>
+            <div class="col-xl-3 col-md-6">
+              <img src="img/rooms-img/room-05.jpg" class="img-fluid" alt="room5">
+              <div class="desk">
+                <h3 class="text-center">type-4</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <span class="price">
+                  <b>Price:</b>
+                  $250/Day
+
+                </span>
+                <a type="button" class="btn btn-dark">Read more</a>
+  
+              </div>
+
+            </div>
+           
+
+          </div>
+
+        </div>
+      </section>
+      <section>
+        <div class="container-fluid">
+          <h2 class="text-center mb-5">Meals</h2>
+          <ul class="nav nav-tabs mb-3 justify-content-center bg-dark" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link bg-dark text-white active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Breakfast</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link bg-dark text-white" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Supper</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+              <div class="row">
+                <div class="col-xl-4 col-md-6 mt-3">
+                  <img src="img/meals-imgs/img-01.jpg" class="img-fluid" alt="khachapuri">
+                  <h3 class="text-center">Type-1</h3>
+                  <div class="meals-desk">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum nobis obcaecati, expedita recusandae aliquam cum porro suscipit cumque illo consectetur neque quae, ullam eaque dolores voluptatem laudantium dolorem, nesciunt maxime?
+                 </div>
+                </div>
+                <div class="col-xl-4 col-md-6 mt-3">
+                  <img src="img/meals-imgs/img-02.jpg" class="img-fluid" alt="khachapuri">
+                  <h3 class="text-center">Type-2</h3>
+                  <div class="meals-desk">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum nobis obcaecati, expedita recusandae aliquam cum porro suscipit cumque illo consectetur neque quae, ullam eaque dolores voluptatem laudantium dolorem, nesciunt maxime?
+                 </div>
+                </div>
+                <div class="col-xl-4 col-md-6 mt-3">
+                  <img src="img/meals-imgs/img-03.jpg" class="img-fluid" alt="khachapuri">
+                  <h3 class="text-center">Type-3</h3>
+                  <div class="meals-desk">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum nobis obcaecati, expedita recusandae aliquam cum porro suscipit cumque illo consectetur neque quae, ullam eaque dolores voluptatem laudantium dolorem, nesciunt maxime?
+                 </div>
+                </div>
+                
+
+              </div>
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+              <div class="row">
+                <div class="col-xl-4 col-md-6 mt-3">
+                  <img src="img/meals-imgs/img-04.jpg" class="img-fluid" alt="khachapuri">
+                  <h3 class="text-center">Type-1</h3>
+                  <div class="meals-desk">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum nobis obcaecati, expedita recusandae aliquam cum porro suscipit cumque illo consectetur neque quae, ullam eaque dolores voluptatem laudantium dolorem, nesciunt maxime?
+                 </div>
+                </div>
+                <div class="col-xl-4 col-md-6 mt-3">
+                  <img src="img/meals-imgs/img-05.jpg" class="img-fluid" alt="khachapuri">
+                  <h3 class="text-center">Type-2</h3>
+                  <div class="meals-desk">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum nobis obcaecati, expedita recusandae aliquam cum porro suscipit cumque illo consectetur neque quae, ullam eaque dolores voluptatem laudantium dolorem, nesciunt maxime?
+                 </div>
+                </div>
+                <div class="col-xl-4 col-md-6 mt-3">
+                  <img src="img/meals-imgs/img-06.jpg" class="img-fluid" alt="khachapuri">
+                  <h3 class="text-center">Type-3</h3>
+                  <div class="meals-desk">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum nobis obcaecati, expedita recusandae aliquam cum porro suscipit cumque illo consectetur neque quae, ullam eaque dolores voluptatem laudantium dolorem, nesciunt maxime?
+                 </div>
+                </div>
+                
+
+              </div>
+            </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+    <footer class="container-fluid bg-light">
+      <div class="row justify-content-center">
+        <div class="col-10 text-center">
+          <a href="" class="social-items">
+            <i class="bi bi-facebook"></i>
+
+          </a>
+          <a href="" class="social-items">
+            <i class="bi bi-instagram"></i>
+            
+          </a>
+          <a href="" class="social-items">
+            <i class="bi bi-youtube"></i>
+            
+          </a>
+
+        </div>
+
+      </div>
+      <div class="row bg-dark essential-nav-partials justify-content-around">
+        <div class="col-md-4 text-center">
+          &copy;2021 site by Irakli Dekanosidze
+
+        </div>
+        <div class="col-md-4 text-center">
+          <a href="#">Terms And Condition</a>
+
+        </div>
+
+      </div>
+
+    </footer>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+</html>
